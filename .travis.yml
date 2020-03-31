@@ -9,6 +9,10 @@ php:
   - 7.3
   - 7.4
 
+env:
+  - SYMFONY_VERSION="~3.0"
+  - SYMFONY_VERSION="~4.0"
+
 #matrix:
 #  fast_finish: true
 #  include:
