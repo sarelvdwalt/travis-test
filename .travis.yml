@@ -37,4 +37,4 @@ install:
   - if [ "$DEPENDENCIES" == "low" ]; then composer update --no-interaction  --prefer-dist --prefer-lowest; fi;
 
 #script:
-#  - vendor/bin/phpunit
+  - vendor/bin/phpunit --version
