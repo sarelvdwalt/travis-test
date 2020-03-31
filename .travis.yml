@@ -37,5 +37,6 @@ install:
   - if [ -z "$DEPENDENCIES" ]; then composer install --no-interaction --prefer-dist; fi;
   - if [ "$DEPENDENCIES" == "low" ]; then composer update --no-interaction  --prefer-dist --prefer-lowest; fi;
 
-#script:
-  - vendor/bin/phpunit --version
+script:
+#  - vendor/bin/phpunit --version
+  - composer show | grep "symfony/symfony"
