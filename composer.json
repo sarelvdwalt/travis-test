@@ -1,5 +1,6 @@
 {
     "require": {
-        "symfony/var-dumper": "^4.4"
+        "symfony/var-dumper": "^4.4",
+        "phpunit/phpunit": "~7.0"
     }
 }
